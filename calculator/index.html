@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container mt-5">
+        <div class="row"><h1 class="text-center">Calculator</h1></div>
+        <div class="row mt-3">
+            <div class="col-md-3"><input class="form-control" type="number" placeholder="0" id="num1"></div>
+            <div class="col-md-3"><input class="form-control" type="text" placeholder="Operators: /, x, +, -" aria-label="operator" id="operator"></div>
+            <div class="col-md-3"><input class="form-control" type="number" placeholder="0" id="num2"></div>
+            <div class="col-md-3" id="res"><input class="form-control" type="number" placeholder="Ans." readonly></div>
+        </div>
+        <div class="row mt-3">
+            <div class="d-grid gap-2 col-4 mx-auto">
+                <button class="btn btn-warning" type="button" id="calculate">Calculate</button>
+              </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

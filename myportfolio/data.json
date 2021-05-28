@@ -1,0 +1,29 @@
+{
+    "name":"Mayank",
+    "img":"https://avatars.githubusercontent.com/u/72256861?v=4",
+    "designation":"Front-end Devloper",
+    "bio":"I am a full-stack web developer with good designing skills and an year of experience in creating and designing web page.",
+    "skills":["HTML", "CSS", "JavaScript", "NodeJS" , "Python" , "C" , "Dart"],
+    "projects":[
+        {
+            "name": "Resume Using CSS",
+            "type": "Attractive Resume using basic CSS",
+            "description": "Created my resume using basic HTML and CSS codes on VS Code."
+        },
+        {
+            "name": "Calculator",
+            "type": "Calculator Using JS",
+            "description": "A basic functioning calculator using basic JavaScript codes."
+        },
+        {
+            "name": "Dynamic Portfolio",
+            "type": "Portfolio with dynamic data",
+            "description": "My Portfolio with dynamic data. Coding in JavaScript, on VS Code."
+        },
+        {
+            "name": "Vue Portfolio",
+            "type": "Portfolio on VueJS",
+            "description": "Created a Portfolio on VueJS and deployed it on Firebase."
+        }
+    ]
+}
